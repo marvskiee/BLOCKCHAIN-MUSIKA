@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BLOCKCHAIN-MUSIKA/static/css/main.a93a0047.chunk.css",
-    "main.js": "/BLOCKCHAIN-MUSIKA/static/js/main.1e99c21a.chunk.js",
-    "main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/main.1e99c21a.chunk.js.map",
+    "main.js": "/BLOCKCHAIN-MUSIKA/static/js/main.de3cc778.chunk.js",
+    "main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/main.de3cc778.chunk.js.map",
     "runtime-main.js": "/BLOCKCHAIN-MUSIKA/static/js/runtime-main.5f0a102a.js",
     "runtime-main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/runtime-main.5f0a102a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css",
     "static/js/2.5c0a8a42.chunk.js": "/BLOCKCHAIN-MUSIKA/static/js/2.5c0a8a42.chunk.js",
     "static/js/2.5c0a8a42.chunk.js.map": "/BLOCKCHAIN-MUSIKA/static/js/2.5c0a8a42.chunk.js.map",
     "index.html": "/BLOCKCHAIN-MUSIKA/index.html",
-    "precache-manifest.f672388c7bebfd76bfcd464dabbf3e6c.js": "/BLOCKCHAIN-MUSIKA/precache-manifest.f672388c7bebfd76bfcd464dabbf3e6c.js",
+    "precache-manifest.5d904e4cbcb1e4079965cd3e2bebcf30.js": "/BLOCKCHAIN-MUSIKA/precache-manifest.5d904e4cbcb1e4079965cd3e2bebcf30.js",
     "service-worker.js": "/BLOCKCHAIN-MUSIKA/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.a93a0047.chunk.css.map": "/BLOCKCHAIN-MUSIKA/static/css/main.a93a0047.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.5c0a8a42.chunk.js",
     "static/css/main.a93a0047.chunk.css",
-    "static/js/main.1e99c21a.chunk.js"
+    "static/js/main.de3cc778.chunk.js"
   ]
 }
