@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/BLOCKCHAIN-MUSIKA/static/css/main.a93a0047.chunk.css",
-    "main.js": "/BLOCKCHAIN-MUSIKA/static/js/main.de3cc778.chunk.js",
-    "main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/main.de3cc778.chunk.js.map",
+    "main.js": "/BLOCKCHAIN-MUSIKA/static/js/main.a13fa6d4.chunk.js",
+    "main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/main.a13fa6d4.chunk.js.map",
     "runtime-main.js": "/BLOCKCHAIN-MUSIKA/static/js/runtime-main.5f0a102a.js",
     "runtime-main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/runtime-main.5f0a102a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5c0a8a42.chunk.js": "/BLOCKCHAIN-MUSIKA/static/js/2.5c0a8a42.chunk.js",
-    "static/js/2.5c0a8a42.chunk.js.map": "/BLOCKCHAIN-MUSIKA/static/js/2.5c0a8a42.chunk.js.map",
+    "static/js/2.6607efdf.chunk.js": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js",
+    "static/js/2.6607efdf.chunk.js.map": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js.map",
     "index.html": "/BLOCKCHAIN-MUSIKA/index.html",
-    "precache-manifest.5d904e4cbcb1e4079965cd3e2bebcf30.js": "/BLOCKCHAIN-MUSIKA/precache-manifest.5d904e4cbcb1e4079965cd3e2bebcf30.js",
+    "precache-manifest.ab328abb3b02dcc3d686f72d64aa6d84.js": "/BLOCKCHAIN-MUSIKA/precache-manifest.ab328abb3b02dcc3d686f72d64aa6d84.js",
     "service-worker.js": "/BLOCKCHAIN-MUSIKA/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.a93a0047.chunk.css.map": "/BLOCKCHAIN-MUSIKA/static/css/main.a93a0047.chunk.css.map",
-    "static/js/2.5c0a8a42.chunk.js.LICENSE.txt": "/BLOCKCHAIN-MUSIKA/static/js/2.5c0a8a42.chunk.js.LICENSE.txt",
+    "static/js/2.6607efdf.chunk.js.LICENSE.txt": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js.LICENSE.txt",
     "static/media/darktheme.jpg": "/BLOCKCHAIN-MUSIKA/static/media/darktheme.66fee598.jpg",
     "static/media/head.png": "/BLOCKCHAIN-MUSIKA/static/media/head.d7e45ded.png",
     "static/media/head1.jpg": "/BLOCKCHAIN-MUSIKA/static/media/head1.4ea1e6f0.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.5f0a102a.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5c0a8a42.chunk.js",
+    "static/js/2.6607efdf.chunk.js",
     "static/css/main.a93a0047.chunk.css",
-    "static/js/main.de3cc778.chunk.js"
+    "static/js/main.a13fa6d4.chunk.js"
   ]
 }
