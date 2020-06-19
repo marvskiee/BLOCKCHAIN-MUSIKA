@@ -20,7 +20,8 @@ export const App = () => {
 	  				<Route exact path="/user/account" component={Main}/>
 	  				<Route exact path="/user/notification" component={Main}/>
 	  			</Route>
-	  			// <Route path='*' component={NotFound} />
+	  			{// <Route path='*' component={NotFound} />
+	  		}
 	  		</Router>
   		</div>
   	)
