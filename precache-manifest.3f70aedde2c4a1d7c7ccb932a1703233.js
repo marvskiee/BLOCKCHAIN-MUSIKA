@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "daf7785d7f3d73f0e883f3ef8455d0fd",
+    "revision": "89faf4976d260f60b9856bdb7908a6a7",
     "url": "/BLOCKCHAIN-MUSIKA/index.html"
   },
   {
-    "revision": "b1587b92328a7c1266a6",
+    "revision": "de0b21bcdc1d0e0b36ec",
     "url": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "96ade8dfcd6b2f4a29c4",
+    "revision": "7068a62ddc6ce1da2c22",
     "url": "/BLOCKCHAIN-MUSIKA/static/css/main.a93a0047.chunk.css"
   },
   {
-    "revision": "b1587b92328a7c1266a6",
-    "url": "/BLOCKCHAIN-MUSIKA/static/js/2.9423f4c1.chunk.js"
+    "revision": "de0b21bcdc1d0e0b36ec",
+    "url": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/BLOCKCHAIN-MUSIKA/static/js/2.9423f4c1.chunk.js.LICENSE.txt"
+    "url": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96ade8dfcd6b2f4a29c4",
-    "url": "/BLOCKCHAIN-MUSIKA/static/js/main.ef67fe45.chunk.js"
+    "revision": "7068a62ddc6ce1da2c22",
+    "url": "/BLOCKCHAIN-MUSIKA/static/js/main.5661816e.chunk.js"
   },
   {
     "revision": "474ee58e0b68fe35bfd6",
