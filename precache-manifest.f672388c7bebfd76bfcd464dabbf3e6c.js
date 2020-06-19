@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1d34556c083bac63959ba0e6f95a4cc",
+    "revision": "15a1e17bb004ea66f3903db7a99a4863",
     "url": "/BLOCKCHAIN-MUSIKA/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "00908103fa7d03510fcd",
+    "revision": "95c1bfe75674c24ff38e",
     "url": "/BLOCKCHAIN-MUSIKA/static/css/main.a93a0047.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BLOCKCHAIN-MUSIKA/static/js/2.5c0a8a42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00908103fa7d03510fcd",
-    "url": "/BLOCKCHAIN-MUSIKA/static/js/main.4fc2f7da.chunk.js"
+    "revision": "95c1bfe75674c24ff38e",
+    "url": "/BLOCKCHAIN-MUSIKA/static/js/main.1e99c21a.chunk.js"
   },
   {
     "revision": "474ee58e0b68fe35bfd6",
