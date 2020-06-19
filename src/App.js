@@ -9,9 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const App = () => {
   	return (
 
-  		<div className="App">  
-  			<Router> 
-	  			<Route exact path={`${process.env.PUBLIC_URL}/`} component={WelcomePage}>
+  		<div className="App"> 
+  			<Router>
+	  			<Switch>
+	  				<Route exact path="{`${process.env.PUBLIC_URL}/user`}" component={WelcomePage}/>
 	  				<Route exact path="/user/feed" component={Main}/>
 	  				<Route exact path="/user/stream" component={Main}/>
 	  				<Route exact path="/user/mart" component={Main}/>
@@ -19,9 +20,7 @@ export const App = () => {
 	  				<Route exact path="/user/collection" component={Main}/>
 	  				<Route exact path="/user/account" component={Main}/>
 	  				<Route exact path="/user/notification" component={Main}/>
-	  			</Route>
-	  			{// <Route path='*' component={NotFound} />
-	  		}
+	  			</Switch>
 	  		</Router>
   		</div>
   	)
