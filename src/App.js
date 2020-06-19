@@ -9,8 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const App = () => {
   	return (
 
-  		<div className="App">
-  			<Router>
+  		<div className="App"> 
+  		Test baby
+  			{/*<Router>
 	  			<Switch>
 	  				<Route exact path="/" component={WelcomePage}/>
 	  				<Route exact path="/user/feed" component={Main}/>
@@ -21,7 +22,7 @@ export const App = () => {
 	  				<Route exact path="/user/account" component={Main}/>
 	  				<Route exact path="/user/notification" component={Main}/>
 	  			</Switch>
-	  		</Router>
+	  		</Router>*/}
   		</div>
   	)
 }
