@@ -1,8 +1,0 @@
-.customBottombar{
-	display: none;
-}
-@media screen and (max-width: 766px){
-	.customBottombar{
-		display: flex;
-	}
-}

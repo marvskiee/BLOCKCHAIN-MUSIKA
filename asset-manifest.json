@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/BLOCKCHAIN-MUSIKA/static/css/main.3f740955.chunk.css",
+    "main.js": "/BLOCKCHAIN-MUSIKA/static/js/main.4c03b417.chunk.js",
+    "main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/main.4c03b417.chunk.js.map",
+    "runtime-main.js": "/BLOCKCHAIN-MUSIKA/static/js/runtime-main.5f0a102a.js",
+    "runtime-main.js.map": "/BLOCKCHAIN-MUSIKA/static/js/runtime-main.5f0a102a.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6607efdf.chunk.js": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js",
+    "static/js/2.6607efdf.chunk.js.map": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js.map",
+    "index.html": "/BLOCKCHAIN-MUSIKA/index.html",
+    "precache-manifest.4a102d3d275765c22ce4a55984f4047a.js": "/BLOCKCHAIN-MUSIKA/precache-manifest.4a102d3d275765c22ce4a55984f4047a.js",
+    "service-worker.js": "/BLOCKCHAIN-MUSIKA/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/BLOCKCHAIN-MUSIKA/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.3f740955.chunk.css.map": "/BLOCKCHAIN-MUSIKA/static/css/main.3f740955.chunk.css.map",
+    "static/js/2.6607efdf.chunk.js.LICENSE.txt": "/BLOCKCHAIN-MUSIKA/static/js/2.6607efdf.chunk.js.LICENSE.txt",
+    "static/media/darktheme.jpg": "/BLOCKCHAIN-MUSIKA/static/media/darktheme.66fee598.jpg",
+    "static/media/head.png": "/BLOCKCHAIN-MUSIKA/static/media/head.d7e45ded.png",
+    "static/media/head1.jpg": "/BLOCKCHAIN-MUSIKA/static/media/head1.4ea1e6f0.jpg",
+    "static/media/headset.png": "/BLOCKCHAIN-MUSIKA/static/media/headset.5076bdfe.png",
+    "static/media/icon.jpg": "/BLOCKCHAIN-MUSIKA/static/media/icon.bf2aea39.jpg",
+    "static/media/lemon.jpg": "/BLOCKCHAIN-MUSIKA/static/media/lemon.3d52676a.jpg",
+    "static/media/mm1.jpg": "/BLOCKCHAIN-MUSIKA/static/media/mm1.75aacd8b.jpg",
+    "static/media/mm2.jpg": "/BLOCKCHAIN-MUSIKA/static/media/mm2.96ab1591.jpg",
+    "static/media/mm3.jpg": "/BLOCKCHAIN-MUSIKA/static/media/mm3.c3c7b367.jpg",
+    "static/media/mm4.jpg": "/BLOCKCHAIN-MUSIKA/static/media/mm4.618a795d.jpg",
+    "static/media/song1edsheeran.jpg": "/BLOCKCHAIN-MUSIKA/static/media/song1edsheeran.69567356.jpg",
+    "static/media/song2brokenheart.jpg": "/BLOCKCHAIN-MUSIKA/static/media/song2brokenheart.d5468eab.jpg",
+    "static/media/song3dualipa.jpg": "/BLOCKCHAIN-MUSIKA/static/media/song3dualipa.54477c0f.jpg",
+    "static/media/song4revamp.jpg": "/BLOCKCHAIN-MUSIKA/static/media/song4revamp.67683777.jpg",
+    "static/media/song5eclipse.jpg": "/BLOCKCHAIN-MUSIKA/static/media/song5eclipse.9bd636d1.jpg",
+    "static/media/song6katy.jpg": "/BLOCKCHAIN-MUSIKA/static/media/song6katy.be021dae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f0a102a.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6607efdf.chunk.js",
+    "static/css/main.3f740955.chunk.css",
+    "static/js/main.4c03b417.chunk.js"
+  ]
+}
