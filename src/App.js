@@ -14,7 +14,7 @@ export const App = () => {
   			<Router>
 	  			<Switch>
 	  				<Route exact path={`${process.env.PUBLIC_URL}/`} component={WelcomePage}/>
-	  				<Route exact path={`${process.env.PUBLIC_URL}/user/feed`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}user/feed`} component={Main}/>
 	  				<Route exact path={`${process.env.PUBLIC_URL}/user/stream`} component={Main}/>
 	  				<Route exact path={`${process.env.PUBLIC_URL}/user/mart`} component={Main}/>
 	  				<Route exact path={`${process.env.PUBLIC_URL}/user/saved`} component={Main}/>
