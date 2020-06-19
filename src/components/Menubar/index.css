@@ -1,0 +1,9 @@
+.customMenubarFont{
+	font-size: 15pt;
+}
+.customStickyTitle{
+	top: 90px;
+}
+.customMenubar{
+	z-index:0;
+}

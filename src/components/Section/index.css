@@ -1,0 +1,12 @@
+.customStickyTitle{
+	top:90px;
+}
+.customTitleFont{
+	font-size: 15pt;
+}
+
+@media screen and (max-width: 766px){
+	.customSection{
+		padding-bottom:75px;
+	}
+}
