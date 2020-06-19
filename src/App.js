@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const App = () => {
   	return (
 
-  		<div className="App"> 
+  		<div className="App">  
   			<Router>
 	  			<Route exact path={`${process.env.PUBLIC_URL}/`} component={WelcomePage}>
 	  				<Route exact path="/user/feed" component={Main}/>
