@@ -10,7 +10,7 @@ export const App = () => {
   	return (
 
   		<div className="App">  
-  			<Router>
+  			<Router> 
 	  			<Route exact path={`${process.env.PUBLIC_URL}/`} component={WelcomePage}>
 	  				<Route exact path="/user/feed" component={Main}/>
 	  				<Route exact path="/user/stream" component={Main}/>
