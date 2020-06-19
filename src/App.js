@@ -12,7 +12,7 @@ export const App = () => {
   		<div className="App"> 
   			<Router>
 	  			<Switch>
-	  				<Route exact path={`${process.env.PUBLIC_URL}/user`} component={WelcomePage}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/`} component={WelcomePage}/>
 	  				<Route exact path="/user/feed" component={Main}/>
 	  				<Route exact path="/user/stream" component={Main}/>
 	  				<Route exact path="/user/mart" component={Main}/>
