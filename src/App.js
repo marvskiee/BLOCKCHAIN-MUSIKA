@@ -11,18 +11,19 @@ export const App = () => {
 
   		<div className="App"> 
   		Test baby
-  			{/*<Router>
+  			<Router>
 	  			<Switch>
-	  				<Route exact path="/" component={WelcomePage}/>
-	  				<Route exact path="/user/feed" component={Main}/>
-	  				<Route exact path="/user/stream" component={Main}/>
-	  				<Route exact path="/user/mart" component={Main}/>
-	  				<Route exact path="/user/saved" component={Main}/>
-	  				<Route exact path="/user/collection" component={Main}/>
-	  				<Route exact path="/user/account" component={Main}/>
-	  				<Route exact path="/user/notification" component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/`} component={WelcomePage}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/feed`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/stream`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/mart`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/saved`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/collection`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/account`} component={Main}/>
+	  				<Route exact path={`${process.env.PUBLIC_URL}/user/notification`} component={Main}/>
+	  				
 	  			</Switch>
-	  		</Router>*/}
+	  		</Router>
   		</div>
   	)
 }
