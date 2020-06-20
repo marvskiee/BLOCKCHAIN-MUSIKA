@@ -3,7 +3,7 @@ import 'App.css';
 import {WelcomePage} from 'scenes/Welcome'
 import {Main} from 'scenes/Main'
 import {NotFound} from 'components/404'
-import {HashRouter, Route, Link, Switch,Redirect} from 'react-router-dom'
+import {HashRouter, Route, HashLink as Link, Switch,Redirect} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const App = () => {
@@ -12,6 +12,7 @@ export const App = () => {
   		<div className="App"> 
   			<HashRouter>
 	  			<Switch>
+	  				<Route exact path="/github" component={()=> {window.location.href="https://youtube.com"; return null;}} />
 	  				<Route exact path="/" component={WelcomePage}/>
 	  				<Route exact path="/user/feed" component={Main}/>
 	  				<Route exact path="/user/stream" component={Main}/>

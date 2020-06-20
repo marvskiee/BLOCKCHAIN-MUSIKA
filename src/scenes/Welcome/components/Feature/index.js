@@ -26,7 +26,7 @@ export const Feature = () => {
 	]
 	return (
 		features && features.map(({title,description,icon},index) =>
-			<div className="col-lg-3 col-sm-6">
+			<div key={index} className="col-lg-3 col-sm-6">
 			    <div className="card m-2">   
 			        <div className="card-header border-top m-2 border-warning text-center" style={{backgroundColor: "#101820ff"}}>
 			            <div className="d-flex justify-content-center ">

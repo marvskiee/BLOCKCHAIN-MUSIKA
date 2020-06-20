@@ -1,4 +1,12 @@
 import React from 'react'
+import {Button}  from 'react-bootstrap'
+import 
+	{
+		FeedUpload,
+		Filter,
+		StreamStart,
+		MartPromote,
+		Search } from 'components/Modals';
 import 
 	{
 		FlexFillCardItem, 
@@ -11,18 +19,54 @@ import 'components/Section/index.css'
 export class Feed extends React.Component {
 	constructor(props) {
 		super(props)
+		this.state={
+			feedModals:false,
+			filterModals:false
+		}
 		
-		const {postinfo,icon} = props
-		this.postinfo = postinfo
-		this.icon = icon
-	} 
+		const {postinfo,icon} = props;
+		this.postinfo = postinfo;
+		this.icon = icon;
+		
+	}
+	feedModalHandlerShow = () =>{
+		this.setState({
+			feedModals:true
+		});
+	}
+	feedModalHandlerClose = () =>{
+		this.setState({
+			feedModals:false
+		});
+	}
+	filterModalHandlerShow = () =>{
+		this.setState({
+			filterModals:true
+		});
+	}
+	filterModalHandlerClose = () =>{
+		this.setState({
+			filterModals:false
+		});
+	}
+
 	render() {
 		return (
 			<div className="pl-3 pr-3 customSection"> 
 			    <div className="d-flex text-align-start">
-			        <button className="btn btn-warning  mb-2 text-white font-weight-bold" data-toggle="modal" data-target="#uploadmusic">Upload Music</button>
-			        <button className="btn btn-outline-warning  mb-2 ml-auto font-weight-bold"><i className="fas fa-filter"></i> Filter</button>
+			        <button onClick={this.feedModalHandlerShow} className="btn btn-warning  mb-2 text-white font-weight-bold" data-toggle="modal" data-target="#uploadmusic">Upload Music</button>
+			        <button onClick={this.filterModalHandlerShow} className="btn btn-outline-warning  mb-2 ml-auto font-weight-bold"><i className="fas fa-filter"></i> Filter</button>
 			    </div>
+			    <Filter show={this.state.filterModals}>
+                	<Button variant="warning" onClick={this.filterModalHandlerClose}>
+			            Post
+			        </Button>
+                </Filter>
+			    <FeedUpload show={this.state.feedModals}>
+			    	<Button variant="warning" onClick={this.feedModalHandlerClose}>
+			            Post
+			        </Button>
+			    </FeedUpload>
 			    <FlexFillCardItem postinfos={this.postinfo} icon={this.icon}/>
 			    
 			</div>
@@ -34,17 +78,50 @@ export class LiveStream extends React.Component {
 		super(props)
 	
 		this.state = {
-			 
+			 streamModals:false,
+			 filterModals:false
 		}
+
 	}
-	render() {
+	streamModalHandlerClose = () =>{
+		this.setState({
+			streamModals:false
+		})
+	}
+	streamModalHandlerShow = () =>{
+		this.setState({
+			streamModals:true
+		})
+	}
+	filterModalHandlerClose = () =>{
+		this.setState({
+			filterModals:false
+		})
+	}
+	filterModalHandlerShow = () =>{
+		this.setState({
+			filterModals:true
+		})
+	}
+
+
+ 	render() {
 		return(		
 			<div className="pr-3 pl-3 customSection">
                 <div className="d-flex text-align-start">
-                    <button className="btn btn-warning mb-2 font-weight-bold text-white"  type="button" data-toggle="modal" data-target="#stream">Start Stream</button>
-                    <button className="btn btn-outline-warning ml-auto mb-2 font-weight-bold"><i className="fas fa-filter"> </i> Filter</button>
+                    <Button variant="warning" onClick={this.streamModalHandlerShow} className="mb-2 font-weight-bold text-white"  type="button" data-toggle="modal" data-target="#stream">Start Stream</Button>
+                    <Button variant="outline-warning" onClick={this.filterModalHandlerShow} className="ml-auto mb-2 font-weight-bold"><i className="fas fa-filter"> </i> Filter</Button>
                 </div>
-
+                <Filter show={this.state.filterModals}>
+                	<Button variant="warning" onClick={this.filterModalHandlerClose}>
+			            Post
+			        </Button>
+                </Filter>
+                <StreamStart show={this.state.streamModals}>
+                	<Button variant="warning" onClick={this.streamModalHandlerClose}>
+			            Post
+			        </Button>
+                </StreamStart>
                 <LiveStreamItem/>
             </div>
 		)
@@ -55,17 +132,46 @@ export class SongMart extends React.Component {
 		super(props)
 	
 		this.state = {
-			 
+			 martModals:false
 		}
+	}
+	martModalHandlerClose = () =>{
+		this.setState({
+			martModals:false
+		})
+	}
+	martModalHandlerShow = () =>{
+		this.setState({
+			martModals:true
+		})
+	}
+	filterModalHandlerClose = () =>{
+		this.setState({
+			filterModals:false
+		})
+	}
+	filterModalHandlerShow = () =>{
+		this.setState({
+			filterModals:true
+		})
 	}
 	render() {
 		return (
 			<div className="pr-3 pl-3 customSection">
                 <div className="d-flex text-align-start">
-                    {/*<a href="" className="text-warning d-block text-decoration-none pt-2 pb-2 pl-2 pr-2  font-weight-bold" style="font-size: 20pt;">Song Mart</a>*/}
-                    <button className="btn btn-warning  mb-2 font-weight-bold text-white" data-toggle="modal" data-target="#promote">Promote</button>
-                    <button className="btn btn-outline-warning mb-2 ml-auto font-weight-bold"><i className="fas fa-filter"> </i> Filter</button>
+                    <button onClick={this.martModalHandlerShow} className="btn btn-warning  mb-2 font-weight-bold text-white" data-toggle="modal" data-target="#promote">Promote</button>
+                    <button onClick={this.filterModalHandlerShow} className="btn btn-outline-warning mb-2 ml-auto font-weight-bold"><i className="fas fa-filter"> </i> Filter</button>
                 </div>
+                <Filter show={this.state.filterModals}>
+                	<Button variant="warning" onClick={this.filterModalHandlerClose}>
+			            Post
+			        </Button>
+                </Filter>
+                <MartPromote show={this.state.martModals}>
+                	<Button variant="warning" onClick={this.martModalHandlerClose}>
+			            Post
+			        </Button>
+                </MartPromote>
                 <ColumnCardItem/>
             </div>
 		)

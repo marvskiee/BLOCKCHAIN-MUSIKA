@@ -196,7 +196,7 @@ export class Main extends React.Component {
 					<Collection/>
 				</>
 			)
-		}else if(page=="/user/notification"){
+		}else if(page==="/user/notification"){
 			currentPage = ( 
 				<>
 					<Notification/>

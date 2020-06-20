@@ -1,28 +1,40 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Feature} from 'scenes/Welcome/components/Feature'
 import {About} from 'scenes/Welcome/components/About'
 import {Navbar} from 'components/Navbar'
 import {Form} from 'components/Form'
 import {faAlignRight} from '@fortawesome/free-solid-svg-icons'
-
+import {DownloadApp} from 'components/Modals/'
+import {HashLink as Link} from 'react-router-hash-link'
+import {Button}  from 'react-bootstrap'
 export const WelcomePage = () =>{
+	const githubLink = "/github";
 	const navMainLinks = [
 		{
 			title: "Home",
-			link: "#home"
+			anchor: "#home"
 		},
 		{
 			title: "Features",
-			link: "#feature"
+			anchor: "#feature"
 		},
 		{
 			title:"About Us",
-			link: "#aboutus"
+			anchor: "#aboutus"
 
 		}
-	]
-	
+	];
+	const [downloadshow, setDownloadShow] = useState(false);
+	const dowloadAppModalClose = () => setDownloadShow(false);
+	const dowloadAppModalShow = () => setDownloadShow(true);
+	console.log(downloadshow);
 	return (
+	<>
+		<DownloadApp shown={downloadshow}>
+			<Button variant="dark" onClick={dowloadAppModalClose}>
+	            Close
+	          </Button>
+		</DownloadApp>
 		<div className="primaryColor" id="home">
 			<div className="wallpaper"></div>
 	    	
@@ -34,8 +46,8 @@ export const WelcomePage = () =>{
 		    				<div>
 					          	<p className="introFontSize text-center">Community for aspiring <span className="font-weight-bold">Music Artist </span>and a safe place to promote your own made songs</p>		          		
 					        	<div className="text-center">
-					        		<a className="btn btn-outline-warning font-weight-bold p-3 m-2" href="#">Download Musika Android</a>
-					        		<a className="btn btn-light font-weight-bold p-3 m-2" href="#">Follow us on Github</a>
+					        		<Button variant="outline-warning" onClick={dowloadAppModalShow} className="font-weight-bold p-3 m-2" href="#">Download Musika Android</Button>
+					        		<Link to={githubLink} target="_blank" className="btn btn-light font-weight-bold p-3 m-2" href="#">Follow us on Github</Link>
 					      		</div>
 					      	</div>
 				      	</div>
@@ -78,7 +90,7 @@ export const WelcomePage = () =>{
 						<a href="#aboutus" className="text-center text-decoration text-light font-weight-bold brandFontSize">About Us</a>
 				    </div>
 				    <div className="row">
-				    	<div class="col-lg-5">
+				    	<div className="col-lg-5">
 
 				    		<div className="d-flex h-100">
 					    		<div>
@@ -92,7 +104,7 @@ export const WelcomePage = () =>{
 									      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								    </p>
 								    <div className="text-center mb-2">
-								    	<a className="btn btn-light font-weight-bold p-3 m-2" href="#">Follow us on Github</a>
+								    	<Link to={githubLink} target="_blank" className="btn btn-light font-weight-bold p-3 m-2" href="#">Follow us on Github</Link>
 						    		</div>
 						    	</div>
 						    </div>
@@ -114,6 +126,6 @@ export const WelcomePage = () =>{
 		    	</div>
 		    </div>
     	</div>
-    
+    </>
 	)
 }

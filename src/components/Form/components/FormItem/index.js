@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 export class RegisterForm extends React.Component {
 	constructor(props) {
 		super(props)
@@ -108,7 +108,7 @@ export class LoginForm extends React.Component{
 						    	<label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
 						  	</div>
 						  	<div className="d-flex justify-content-between">
-								<button type="submit" className="btn btn-warning" onClick={this.loginUser}>Login</button>
+								<Link to="/user/feed" type="submit" className="btn btn-warning" onClick={this.loginUser}>Login</Link>
 								{this.props.children}
 							</div>
 						</form>

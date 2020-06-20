@@ -22,9 +22,9 @@ export const About = () => {
 	]
 	return (
 		developers && developers.map(({name,position,avatarpic},index) =>
-			<div className="col-lg-4 col-md-4">
+			<div key={index} className="col-lg-4 col-md-4">
 				<div className="mt-3 mb-3 text-center">
-			    	<img src={require(`assets/pics/${avatarpic}`)} className="icon-size rounded-circle border-warning fa fa-users developerFrame"/>
+			    	<img alt="devpic" src={require(`assets/pics/${avatarpic}`)} className="icon-size rounded-circle border-warning fa fa-users developerFrame"/>
 			    </div>
 			    <div className="card">   
 			        <div className="card-body ">

@@ -68,7 +68,7 @@ export const ColumnCardItem = () => {
                 <div className="p-1 col-6 col-md-3 col-xl-3 col-sm-4"> 
                     <div className="card border-0 "> 
                         <div className="card-body p-0"> 
-                            <img src={require("assets/pics/song3dualipa.jpg")} className="rounded img-fluid"/>
+                            <img alt="songpic" src={require("assets/pics/song3dualipa.jpg")} className="rounded img-fluid"/>
                         </div>
                     </div>    
                 </div>
